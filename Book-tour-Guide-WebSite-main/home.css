@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+     scroll-behavior: smooth;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#logo{
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: black;
+    text-shadow: 0px 0px 6px black;
+}
+#logo span{
+    color: rgb(223, 11, 11);
+}
+.navbar-toggler span{
+    color: rgb(223, 11, 11);
+}
+
+.nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+   transition: 0.5s;
+   margin-left: 20px;
+}
+.nav-item .nav-link:hover {
+    background-color: rgb(223, 11, 11);
+    color:white;
+    border-radius: 10px;
+    transition: 0.5s;
+    border-radius: smooth;
+}
+
+.d-flex button{
+   border-radius: 12px;
+  
+ }
+
+.row{
+    z-index: 0;
+    
+}
+/*
+
+*/
+.home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(background\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 5px 3px 4px black;
+}
+.home .content h1{
+ color: white;
+ font-size: 45px;
+ font-weight: 600;
+ text-shadow: 5px 3px 4px black;
+margin-top: 20px;
+}
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px black;
+margin-bottom: 30px;
+margin-top: 10px;
+
+}
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    text-underline-offset: -1;
+}
+.home .content a:hover{
+    background-color: yellow;
+    color: rgb(116, 78, 78);
+   
+}
+.changecontent::after{
+    content: ' ';
+    color: yellow;
+    text-shadow: 5px 3px 4px black;
+    animation: list 20s  infinite  ;
+}
+@keyframes list{
+    10%{content: "Pakistan Cities"; }
+    10%{content: "Lahore"; } /* */
+    30%{content: "Karachi"; } /* */
+    40%{content: "Multan"; }
+    50%{content: "Islamabad"; } /* */
+    60%{content: "Quetta"; }
+    70%{content: "Skardu"; }/* */
+    80%{content: "Murree"; }/* */
+    90%{content: "Kashmir"; } /* */
+    100%{content: "Gilgit"; }/* */
+
+}
+
+
+
+/* Book Start */
+
+.book{
+
+    padding: 20px;
+}
+.text{
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 2px 1px 3px black;
+    font-weight: 600;
+
+}
+.text h1 span{
+    color: rgb(223, 11, 11);
+}
+.book .card{
+    margin-top: 10px;
+ border-radius: 10px;
+ text-shadow: 0px 5px 5px -6px black;
+}
+
+.book .submit{
+    width: 160px;
+    height: 47px;
+    font-weight: 500;
+    background: skyblue;
+    color: black;
+    margin-top: 15px;
+   transition: 0.5s;
+    border-radius: 30px;
+    border: none;
+}
+.book .submit:hover{
+    width: 170px;
+    color: white;
+    background-color:blue;
+}
+
+/* Book End */
+
+
+/* pacakeges start */
+
+#card{
+    transition: 0.5s;
+
+}
+#card:hover{
+   margin-right: 7px;
+   margin-left: 6px;
+
+}
+
+/* pacakeges end */
+
+
+
+/* About Start */
+.about{
+   
+    margin-top: 80px;
+    background: rgb(173, 180, 70);
+    height: 600px;
+
+}
+
+.about .card{
+    border-radius: 20px;
+}
+.about .card img{
+ border-radius: 20px;
+}
+.about h2{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.about p{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.main-text{
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 1px 3px black;
+    font-weight: 600;
+}
+.main-text h1 span{
+    
+    color: rgb(223, 11, 11);
+}
+
+#about-btn{
+width: 120px;
+height: 40px;
+border: none;
+border-radius: 5px;
+background: yellow;
+letter-spacing: 1px;
+font-weight: 500;
+transition: 0.5s;
+}
+#about-btn:hover{
+    width: 130px;
+    letter-spacing: 1;
+    height: 40px;
+}
+
+/* About end */
+
+
+
+
+
+
+
+
+/* Footer Start */
+#footer{
+
+    width: 100%;
+    margin-top: 150px;
+    background:  black;
+}
+#footer h1{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+    color: rgb(223, 11, 11);
+}
+#footer h1 {
+    color: white;
+}
+
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s s;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background:rgb(223, 11, 11);
+}
+#contact2{
+ background:#504d4b;
+}
+.list{
+    width: 25%;
+    margin-right: 20px  ;
+}
+.list h4{
+    color: white;
+padding: 20px;
+font-size: 25px;
+margin-bottom: 20px;
+position: relative;
+
+}
+.list ul li a{
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.list ul li a:hover{
+    background:black;
+    border-radius: 5px;
+    color: #504d4b;
+
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Footer End */

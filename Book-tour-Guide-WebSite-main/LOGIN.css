@@ -1,0 +1,79 @@
+.hero {
+  display: flex;
+  height: 500px;
+  width: 800px;
+  margin: auto;
+  margin-top: 5%;
+}
+body {
+  background:  #a89393;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  opacity: 70%;
+  background-color: rgb(114, 55, 55);
+  border: 2px solid black;
+  height: 100%;
+ 
+}
+.form h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 90%;
+  color: rgb(214, 210, 213);
+}
+.form h1 span {
+  color: black;
+}
+
+.box {
+  padding: 4%;
+  width: 70%;
+  height: 55%;
+  margin: 5%;
+  border-radius: 20px;
+  text-align: center;
+}
+#submit {
+  padding: 2%;
+  width: 40%;
+  height: 50%;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  transform: 0.5s;
+}
+#submit:hover {
+  width: 50%;
+  height: 60%;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #750000;
+}
+.form a {
+ color: yellow  ;
+  margin-top: 20px;
+  text-decoration: solid;
+  height: 100%;
+}
+.side {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  
+
+}
+.side img {
+
+  width: 120%;
+  height: 94%;
+  border: 2px solid black;
+  padding: 20px;
+
+}
+
+/*
+*/

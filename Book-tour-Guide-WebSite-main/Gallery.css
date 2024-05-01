@@ -1,0 +1,50 @@
+header{
+    text-align: center;
+    font-size: 2em;
+
+}
+body{
+  background:  #af9696;
+    
+}
+header h3{
+    font-weight: bold;
+    border-bottom: 3px solid gray;
+
+}
+header h3 span{
+    font-weight:1;
+}
+main{
+}  
+.box{
+    display: block;
+    float: left;  
+    width:50%;
+    border: yellow;
+    
+}
+img{
+    image-resolution:600dpi;
+    height: 450px;
+    width: 90%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.2,1.2);
+    transition: .3s;
+}
+.main-text{
+    background: whitesmoke;
+    text-align: center;
+}
+.main-text h1 {
+    color: cadetblue;
+    font-size: 2em;
+}
+.main-text h1 span{
+    color: yellow;
+    font-size: 3em;
+
+}
